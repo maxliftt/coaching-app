@@ -8,9 +8,9 @@ from reportlab.lib import colors
 import sys
 
 # ─── FONTS ───────────────────────────────────────────────────────────────────
-pdfmetrics.registerFont(TTFont('Poppins', 'fonts/Poppins-Regular.ttf'))
-pdfmetrics.registerFont(TTFont('Poppins-Bold', 'fonts/Poppins-Bold.ttf'))
-pdfmetrics.registerFont(TTFont('DMSerif', 'fonts/DejaVuSerif-Bold.ttf'))
+pdfmetrics.registerFont(TTFont('Poppins', 'Poppins-Regular.ttf'))
+pdfmetrics.registerFont(TTFont('Poppins-Bold', 'Poppins-Bold.ttf'))
+pdfmetrics.registerFont(TTFont('DMSerif', 'DejaVuSerif-Bold.ttf'))
 
 # ─── STYLES ──────────────────────────────────────────────────────────────────
 BLACK = colors.HexColor('#1a1a1a')
